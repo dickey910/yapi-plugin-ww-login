@@ -1,0 +1,12 @@
+{
+  "name": "yapi-plugin-ww-login",
+  "version": "1.0.0",
+  "description": "yapi企业微信登录插件",
+  "main": "index.js",
+  "author": "dickey_910",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dickey910/yapi-plugin-ww-login.git"
+  }
+}
