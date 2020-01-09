@@ -34,7 +34,7 @@ class interfaceWxController extends baseController {
     const query = ctx.request.query || ctx.request.body;
 
     [code, state, appid] = [query.code, query.state, query.appid]
-    secret = yapi.WEBCONFIG.plugins.filter(({ name }) => name === "ww")[0].options.secret;
+    secret = yapi.WEBCONFIG.plugins.filter(({ name }) => name === "ww-login")[0].options.secret;
     if (!code) {
       return (ctx.body = yapi.commons.resReturn(null, 400, 'code不能为空'));
     }
