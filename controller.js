@@ -17,6 +17,7 @@ let appid = "";
 class interfaceWxController extends baseController {
   constructor(ctx) {
     super(ctx);
+    this.$auth = true
   }
 
   /**
